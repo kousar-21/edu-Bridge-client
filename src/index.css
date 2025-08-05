@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui" {
+    themes: all;
+  }
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+
+*{
+    font-family: "Raleway", sans-serif;
+}

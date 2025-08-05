@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/fzSsDDtm/brooke-cagle-g1-Kr4-Ozfoac-unsplash.jpg",
+    "text": "Join thousands of students mastering new skills with expert tutors around the world. Learn at your pace, anytime, anywhere.",
+    "button": {
+      "label": "Explore Courses",
+      "link": "Courses"
+    }
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/XxM4QJnJ/maxim-ilyahov-BJk-U-j-RDb-Cg-unsplash.jpg",
+    "text": "Are you an expert in your subject? Share your knowledge and earn money by teaching students online.",
+    "button": {
+      "label": "Start Teaching",
+      "link": "Become-a-tutor"
+    }
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/FLP3p4W5/ofspace-llc-ABd-QMHYg3ww-unsplash.jpg",
+    "text": "Try a free session with any tutor to find the perfect match for your learning goals. No credit card required!",
+    "button": {
+      "label": "Book Now",
+      "link": "Free-session"
+    }
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/jvX9dDcH/sincerely-media-ylve-Rp-Z8-L1s-unsplash.jpg",
+    "text": "Busy schedule? No problem. Choose lesson times that fit your life with 24/7 booking options.",
+    "button": {
+      "label": "Find Your Time",
+      "link": "Schedule"
+    }
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/ZR7gcKbg/embedsocial-vwj-RMsds-C-g-unsplash.jpg",
+    "text": "Read honest reviews from students who’ve learned and grown with our top-rated tutors.",
+    "button": {
+      "label": "Read Reviews",
+      "link": "Reviews"
+    }
+  }
+]
