@@ -66,7 +66,7 @@ This platform supports features like browsing tutor categories, viewing detailed
 ## How to Run Locally
 
 1. Clone the repository
-- git clone https://github.com/kousar-21/scholar-Gateway-client
+- git clone https://github.com/kousar-21/edu-Bridge-client
 - cd eduBridge
 
 2. Install dependencies
