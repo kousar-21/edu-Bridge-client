@@ -13,13 +13,17 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-Project Name: EduBridge
+## Project Name: EduBridge
 
 
-Live Link: https://language-club-d421b.web.app/
+## Live Link: https://language-club-d421b.web.app/
 
+## Project Overview
+- eduBridge is an Online Tutor Booking Platform designed to seamlessly connect learners with qualified tutors across multiple languages and subjects. The platform streamlines finding, reviewing, and booking tutors through a modern, interactive, and user-friendly React-based interface. It aims to make quality education accessible worldwide by simplifying tutor discovery and session management.
 
-Key Feature:
+This platform supports features like browsing tutor categories, viewing detailed tutor profiles, secure booking, and reviewing tutors to enhance user engagement. It is inspired by popular platforms such as Preply and Italki.
+
+## Key Feature:
 - Styling and Design(Tailwind css & Daisy Ui)
 - React Framework
 - HTTP Requests
@@ -29,7 +33,19 @@ Key Feature:
 - Interactive Components
 - Backend Integration
 
-NPM Packages:
+ ## Technologies Used
+- React 19
+- Tailwind CSS & DaisyUI (for styling & responsive design)
+- Firebase (backend integration & authentication)
+- Axios (HTTP requests)
+- React Router (navigation & routing)
+- Lottie React & Motion (animations and effects)
+- React Hot Toast & SweetAlert2 (notifications & alerts)
+- React Icons & React Tooltip (iconography & tooltips)
+- Swiper (interactive sliders)
+- React Spinners (loading indicators)
+
+## NPM Packages:
 - [@React](https://vite.dev/guide/)
 - [@React-Router](https://reactrouter.com/home)
 - [@Axios](https://axios-http.com/docs/intro)
@@ -45,3 +61,20 @@ NPM Packages:
 - [@React-tooltip](https://react-tooltip.com/)
 - [@Swiperjs](https://swiperjs.com/)
 - [@React-Countup](https://www.npmjs.com/package/react-countup)
+
+
+## How to Run Locally
+
+1. Clone the repository
+- git clone https://github.com/kousar-21/scholar-Gateway-client
+- cd eduBridge
+
+2. Install dependencies
+- npm install
+
+3. Setup Firebase
+
+4. Run the development server locally
+- npm run dev
+
+
