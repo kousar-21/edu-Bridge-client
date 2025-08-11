@@ -10,7 +10,7 @@ const RootLayout = () => {
     // console.log(navigation)
 
     return (
-        <div className='' id='root-theme'>
+        <div className='flex flex-col min-h-screen' id='root-theme'>
             <Navbar></Navbar>
             <div className='bg-green-50 dark:bg-gray-700 text-base-content'>
                 {navigation.state === "loading" ? <Spinner></Spinner> : <Outlet></Outlet>}

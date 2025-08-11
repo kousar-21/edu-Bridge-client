@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { use, useEffect, useState } from 'react';
-import { FaStar } from 'react-icons/fa';
+import { FaSearch, FaStar } from 'react-icons/fa';
 import { NavLink } from 'react-router';
 import { AuthContext } from '../../Context/AuthContext';
 import LoaderSpinner from '../../Component/Spinner/LoaderSpinner';
@@ -23,13 +23,11 @@ const FindTutors = () => {
                 setFilterTutor(res.data);
                 setLoading(false);
             })
-            .catch(error => {
-                toast.error(error.message);
-                setLoading(false);
-            })
+
             .catch(error => {
                 // console.log(error.message)
                 toast.error(error.message)
+                setLoading(false);
             })
 
     }, [setLoading])
@@ -61,7 +59,7 @@ const FindTutors = () => {
             </div>
             <div className='py-10 mx-6 md:mx-20'>
                 {
-                    loading ? (<LoaderSpinner></LoaderSpinner>) : (
+                    loading ? (<LoaderSpinner></LoaderSpinner>) : filterTutor.length > 0 ? (
                         filterTutor.map((tutor, index) => (<div key={index} className="hero bg-base-200 rounded-3xl shadow-2xl w-full mx-auto my-10 py-10">
                             <div className="hero-content flex-col md:flex-row">
                                 <div className='w-3/4 md:w-1/4'>
@@ -81,6 +79,14 @@ const FindTutors = () => {
                                 </div>
                             </div>
                         </div>))
+                    ) : (
+                        <div className="text-center py-16 text-gray-500">
+                            <FaSearch className="mx-auto mb-4 text-6xl text-gray-400" />
+                            <h2 className="text-2xl font-semibold">No Tutors Found</h2>
+                            <p className="text-gray-400 mt-2">
+                                Try adjusting your search or explore all tutors.
+                            </p>
+                        </div>
                     )
                 }
 

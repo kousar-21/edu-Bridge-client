@@ -99,15 +99,15 @@ const ExtraSections = () => {
             </section>
 
             {/* 4. Join Our Community */}
-            <section className="bg-gradient-to-r from-sky-600 to-blue-700 text-white py-20 px-6 text-center rounded-lg mx-6 md:mx-20">
+            <section className="dark:bg-gray-700 py-20 text-center rounded-lg mx-6 md:mx-20">
                 <h2 className="text-4xl font-bold mb-6">Ready to Start Learning?</h2>
                 <p className="max-w-2xl mx-auto mb-8 text-lg">
                     Join thousands of students worldwide who are advancing their skills with EduBridge.
                     Find your tutor and book your first lesson today.
                 </p>
                 <a
-                    href="/register"
-                    className="inline-block bg-white text-blue-700 font-semibold px-8 py-3 rounded shadow hover:bg-gray-100 transition"
+                    href="/findTutors"
+                    className="inline-block dark:bg-sky-900 bg-sky-300 font-semibold px-8 py-3 rounded shadow-2xl hover:bg-sky-800 hover:text-white transition"
                 >
                     Get Started
                 </a>

@@ -33,7 +33,7 @@ const Banner = () => {
                         banners.map(banner => (<SwiperSlide key={banner.id}>
                             <div className='w-full aspect-[1361/500] rounded-sm relative overflow-hidden'>
                                 <img className='w-full h-full object-cover block' src={banner.image} alt="" />
-                                <div className='absolute bottom-8 lg:bottom-16 left-6 lg:left-12 bg-black/40 w-10/12 md:w-11/12 mx-auto p-4 rounded text-white'>
+                                <div className='absolute bottom-8 lg:bottom-16 left-6 lg:left-12 bg-black/40 w-10/12 md:w-11/12 mx-auto p-4 rounded text-white hidden md:block'>
                                     <p className='lg:text-2xl md:text-lg text-sm pb-5 md:pr-10 font-bold'>{banner.text}</p>
                                     <div className='space-x-3'>
                                         <button className='btn btn-info text-sm text-white'>{banner.button.label}</button>
