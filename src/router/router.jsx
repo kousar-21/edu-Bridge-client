@@ -15,6 +15,7 @@ import MyTutorials from '../Pages/MyTutorials/MyTutorials';
 import PrivateRoute from '../Context/PrivateRoute';
 import Update from '../Component/Update/Update';
 import TutorDetails from '../Component/TutorDetails/TutorDetails';
+import AboutUs from '../Pages/AboutUs/AboutUs';
 
 const router = createBrowserRouter([
   {
@@ -40,9 +41,13 @@ const router = createBrowserRouter([
         element: <FindTutors></FindTutors>
       },
       {
+        path: '/aboutUs',
+        element: <AboutUs></AboutUs>
+      },
+      {
         path: '/tutorDetails/:_id',
         loader: ({params})=>fetch(`https://language-club-orcin.vercel.app/addTutors/${params._id}`),
-        element: <PrivateRoute><TutorDetails></TutorDetails></PrivateRoute>
+        element: <TutorDetails></TutorDetails>
       },
       {
         path: '/addTutorials',

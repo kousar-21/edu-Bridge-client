@@ -15,7 +15,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <CountUpSection tutorsData={tutorsData}></CountUpSection>
-            <div className='w-10/12 mx-auto py-10'>
+            <div className='mx-20 py-10'>
                 <h1 className='text-2xl md:text-3xl lg:text-4xl font-extrabold'>Discover the Perfect Tutor for your learning journey</h1>
                 <CategoryLanguage tutorsData={tutorsData}></CategoryLanguage>
             </div>

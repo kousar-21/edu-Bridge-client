@@ -32,7 +32,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-[#CAE8BD]  dark:bg-gray-500 px-2 lg:px-16'>
+        <div className='bg-[#CAE8BD]  dark:bg-gray-500 px-2 lg:px-16 fixed top-0 z-10 w-full'>
             <div className="flex justify-between py-2">
                 <div className="flex items-center ml-5">
                     <div className="dropdown">
@@ -44,9 +44,14 @@ const Navbar = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 py-2 shadow">
                             <li><NavLink to='/'>Home</NavLink></li>
                             <li><NavLink to='/findTutors'>Find Tutors</NavLink></li>
-                            <li><NavLink to='/addTutorials'>Add Tutorials</NavLink></li>
-                            <li><NavLink to='/myTutorials'>My Tutorials</NavLink></li>
-                            <li><NavLink to='/bookedTutors'>My booked tutors</NavLink></li>
+                            {
+                                users && <>
+                                    <li><NavLink to='/addTutorials'>Add Tutorials</NavLink></li>
+                                    <li><NavLink to='/myTutorials'>My Tutorials</NavLink></li>
+                                    <li><NavLink to='/bookedTutors'>My booked tutors</NavLink></li>
+                                </>
+                            }
+
                         </ul>
                     </div>
                     <div className='flex justify-center items-center gap-3'>
@@ -58,7 +63,7 @@ const Navbar = () => {
                         </div>
                         <div>
                             <Theme></Theme>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -68,9 +73,14 @@ const Navbar = () => {
                         <ul className="menu menu-horizontal px-1">
                             <li><NavLink to='/'>Home</NavLink></li>
                             <li><NavLink to='/findTutors'>Find Tutors</NavLink></li>
-                            <li><NavLink to='/addTutorials'>Add Tutorials</NavLink></li>
-                            <li><NavLink to='/myTutorials'>My Tutorials</NavLink></li>
-                            <li><NavLink to='/bookedTutors'>My booked tutors</NavLink></li>
+                            <li><NavLink to='/aboutUs'>About Us</NavLink></li>
+                            {
+                                users && <>
+                                    <li><NavLink to='/addTutorials'>Add Tutorials</NavLink></li>
+                                    <li><NavLink to='/myTutorials'>My Tutorials</NavLink></li>
+                                    <li><NavLink to='/bookedTutors'>My booked tutors</NavLink></li>
+                                </>
+                            }
 
                         </ul>
                     </div>

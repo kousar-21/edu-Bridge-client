@@ -12,7 +12,7 @@ const RootLayout = () => {
     return (
         <div className='' id='root-theme'>
             <Navbar></Navbar>
-            <div className='bg-[#ECFAE5] dark:bg-gray-700 text-base-content'>
+            <div className='bg-green-50 dark:bg-gray-700 text-base-content'>
                 {navigation.state === "loading" ? <Spinner></Spinner> : <Outlet></Outlet>}
                 
             </div>

@@ -6,7 +6,7 @@ import { motion } from "motion/react"
 
 const ExtraPart1 = () => {
     return (
-        <div className='w-10/12 py-10 mx-auto'>
+        <div className='py-10 mx-20'>
             <div className='space-y-5 py-10'>
                 <h1 className='text-3xl font-extrabold'>The EduBridge Advantage</h1>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
