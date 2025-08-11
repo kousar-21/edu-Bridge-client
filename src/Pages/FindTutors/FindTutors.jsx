@@ -52,8 +52,8 @@ const FindTutors = () => {
     }
 
     return (
-        <div className='py-10 min-h-[calc(100vh-80px-324px)]'>
-            <h1 className='text-center text-xl md:text-3xl lg:text-4xl font-extrabold'>Explore Best Online Tutors & Teacher for Learning a new Language</h1>
+        <div className='pb-10 pt-32 min-h-[calc(100vh-80px-324px)]'>
+            <h1 className='text-center text-xl md:text-3xl lg:text-4xl font-extrabold mx-6 md:mx-20'>Explore Best Online Tutors & Teacher for Learning a new Language</h1>
             <div className='py-5'>
                 <fieldset className="fieldset bg-base-200 border-base-300 w-8/12 mx-auto rounded-box border p-4">
                     <div className="join w-full">
@@ -64,7 +64,7 @@ const FindTutors = () => {
                     </div>
                 </fieldset>
             </div>
-            <div className='py-10 mx-20'>
+            <div className='py-10 mx-6 md:mx-20'>
                 {
                     loading ? (<LoaderSpinner></LoaderSpinner>) : (
                         filterTutor.map((tutor, index) => (<div key={index} className="hero bg-base-200 rounded-3xl shadow-2xl w-full mx-auto my-10 py-10">

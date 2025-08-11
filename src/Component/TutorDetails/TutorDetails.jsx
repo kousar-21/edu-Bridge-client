@@ -42,7 +42,7 @@ const TutorDetails = () => {
     }
 
     return (
-        <div className='py-10 min-h-[calc(100vh-80px-324px)]'>
+        <div className='pb-10 pt-32 min-h-[calc(100vh-80px-324px)]'>
             <div className="hero bg-base-200 rounded-3xl shadow-2xl w-10/12 mx-auto py-10">
                 <div className="hero-content flex-col md:flex-row">
                     <div className='w-3/4 md:w-1/4'>

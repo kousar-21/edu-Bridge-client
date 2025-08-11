@@ -44,11 +44,11 @@ const Update = () => {
 
 
     return (
-        <div className='py-10'>
-            <h1 className='text-center w-8/12 mx-auto py-2 rounded-2xl bg-[#B0DB9C] dark:bg-gray-500'>Update Your Tutorial !!</h1>
+        <div className='pb-10 pt-32'>
+            <h1 className='text-center mx-6 md:mx-20 py-2 rounded-2xl bg-[#B0DB9C] dark:bg-gray-500'>Update Your Tutorial !!</h1>
             {
                 loading ? (<LoaderSpinner></LoaderSpinner>) : users && (
-                    <div className='w-8/12 mx-auto'>
+                    <div className='mx-6 md:mx-20'>
                         <form onSubmit={handleUpdateTutorial}>
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 py-10'>
 

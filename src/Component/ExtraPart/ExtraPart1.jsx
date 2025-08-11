@@ -6,8 +6,8 @@ import { motion } from "motion/react"
 
 const ExtraPart1 = () => {
     return (
-        <div className='py-10 mx-20'>
-            <div className='space-y-5 py-10'>
+        <div className='pb-10 pt-6 mx-6 md:mx-20'>
+            <div className='space-y-5 pb-16'>
                 <h1 className='text-3xl font-extrabold'>The EduBridge Advantage</h1>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
                     <motion.div animate={{y: [0,70,0]}} transition={{duration: 8, repeat: Infinity}} className="card bg-base-100 shadow-sm">

@@ -27,10 +27,10 @@ const testimonials = [
 
 const ExtraSections = () => {
     return (
-        <div className="text-gray-800 py-16 dark:text-gray-200">
+        <div className="text-gray-800 pt-6 pb-16 dark:text-gray-200">
 
             {/* 1. Why Choose EduBridge */}
-            <section className="mx-20 py-16">
+            <section className="mx-6 md:mx-20 pb-16">
                 <h2 className="text-3xl font-bold text-center mb-12">Why EduBridge Stands Out?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                     <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition">
@@ -53,7 +53,7 @@ const ExtraSections = () => {
             </section>
 
             {/* 2. Our Learning Process */}
-            <section className=" dark:bg-gray-900 py-16 mx-20 rounded-2xl text-gray-900 dark:text-gray-100">
+            <section className=" dark:bg-gray-900 py-16 mx-6 md:mx-20 rounded-2xl text-gray-900 dark:text-gray-100">
                 <h2 className="text-3xl font-bold text-center mb-12">How EduBridge Works</h2>
                 <ol className="max-w-4xl mx-auto space-y-12 list-decimal list-inside text-lg text-center">
                     <li>

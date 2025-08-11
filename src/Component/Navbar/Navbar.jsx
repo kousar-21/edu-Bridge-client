@@ -32,11 +32,11 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-[#CAE8BD]  dark:bg-gray-500 px-2 lg:px-16 fixed top-0 z-10 w-full'>
+        <div className='bg-[#CAE8BD]  dark:bg-gray-500 px-6 md:px-20 fixed top-0 z-10 w-full'>
             <div className="flex justify-between py-2">
-                <div className="flex items-center ml-5">
+                <div className="flex items-center">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
+                        <div tabIndex={0} role="button" className="lg:hidden mr-5">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                         </div>
                         <ul
@@ -44,6 +44,7 @@ const Navbar = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 py-2 shadow">
                             <li><NavLink to='/'>Home</NavLink></li>
                             <li><NavLink to='/findTutors'>Find Tutors</NavLink></li>
+                            <li><NavLink to='/aboutUs'>About Us</NavLink></li>
                             {
                                 users && <>
                                     <li><NavLink to='/addTutorials'>Add Tutorials</NavLink></li>
@@ -69,7 +70,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex justify-center items-center gap-5">
-                    <div className="hidden md:flex">
+                    <div className="hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
                             <li><NavLink to='/'>Home</NavLink></li>
                             <li><NavLink to='/findTutors'>Find Tutors</NavLink></li>

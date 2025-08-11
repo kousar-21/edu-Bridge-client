@@ -26,7 +26,7 @@ const CountUpSection = ({tutorsData}) => {
 
 
     return (
-        <div className='gap-5 w-11/12 md:w-8/12 py-10 mx-auto grid grid-cols-4'>
+        <div className='gap-5 py-10 mx-6 md:mx-20 grid grid-cols-4'>
             <div className='text-center'>
                 <h3 className='text-2xl md:text-3xl lg:text-5xl font-extrabold flex items-center  justify-center gap-2'><CountUp end={totalData?.length ||0} duration={8} /> +</h3>
                 <h3>Total Tutor</h3>

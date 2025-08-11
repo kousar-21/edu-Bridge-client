@@ -3,7 +3,7 @@ import { FaChalkboardTeacher, FaUsers, FaGlobe, FaAward } from "react-icons/fa";
 
 const AboutUs = () => {
     return (
-        <div className="mx-20 text-gray-800 dark:text-gray-200 pt-28 pb-8 min-h-[calc(100vh-80px-324px)]">
+        <div className="mx-6 md:mx-20 text-gray-800 dark:text-gray-200 pt-28 pb-8 min-h-[calc(100vh-80px-324px)]">
             {/* Hero Section */}
             <section className="relative rounded-2xl dark:bg-gray-800 bg-sky-300 py-16 px-6 text-center shadow-lg">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">About EduBridge</h1>
