@@ -48,7 +48,7 @@ const MyBookedTutors = () => {
     }
 
     return (
-        <div className='py-10 space-y-10 min-h-[calc(100vh-80px-324px)]'>
+        <div className='pb-10 pt-32 space-y-10 min-h-[calc(100vh-80px-324px)]'>
             {
                 booked.length === 0 ? (<NoData></NoData>) : (
                     booked.map((book, index) => (

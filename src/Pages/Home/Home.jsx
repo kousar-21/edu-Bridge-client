@@ -4,6 +4,7 @@ import ExtraPart1 from '../../Component/ExtraPart/ExtraPart1';
 import CountUpSection from '../../Component/CountUp/CountUpSection';
 import { useLoaderData } from 'react-router';
 import CategoryLanguage from '../../Component/Category/CategoryLanguage';
+import ExtraSections from '../../Component/ExtraPart/ExtraSections';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
                 <CategoryLanguage tutorsData={tutorsData}></CategoryLanguage>
             </div>
             <ExtraPart1></ExtraPart1>
+            <ExtraSections></ExtraSections>
         </div>
     );
 };
