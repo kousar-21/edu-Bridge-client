@@ -15,7 +15,7 @@ const MyTutorials = () => {
             </Suspense>
 
             <div>
-                <h1 className='text-center text-lg md:text-2xl lg:text-3xl font-bold py-10'>MY Favourite Tutor</h1>
+                <h1 className='text-center text-lg md:text-2xl lg:text-3xl font-bold py-10'>Favourite Tutor</h1>
                 <FavoritesTable></FavoritesTable>
             </div>
         </div>
