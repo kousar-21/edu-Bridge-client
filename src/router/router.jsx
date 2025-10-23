@@ -16,6 +16,7 @@ import PrivateRoute from '../Context/PrivateRoute';
 import Update from '../Component/Update/Update';
 import TutorDetails from '../Component/TutorDetails/TutorDetails';
 import AboutUs from '../Pages/AboutUs/AboutUs';
+import ContactPage from '../Pages/Connect/ContactPage';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: '/findTutors',
         element: <FindTutors></FindTutors>
+      },
+      {
+        path: '/connect',
+        element: <ContactPage></ContactPage>
       },
       {
         path: '/aboutUs',
