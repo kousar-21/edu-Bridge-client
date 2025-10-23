@@ -38,10 +38,10 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="mt-12">
+        <div className="mt-12 ">
             <form
                 onSubmit={handleSubmit}
-                className="flex flex-col gap-4 max-w-md mx-auto p-6 rounded border border-gray-300 bg-white transition-transform transform hover:scale-105"
+                className="flex flex-col gap-4 dark:bg-gray-800 max-w-md mx-auto p-6 rounded border border-gray-300 bg-white transition-transform transform hover:scale-105"
             >
                 <input
                     type="text"

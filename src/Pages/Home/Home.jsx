@@ -5,6 +5,7 @@ import CountUpSection from '../../Component/CountUp/CountUpSection';
 import { useLoaderData } from 'react-router';
 import CategoryLanguage from '../../Component/Category/CategoryLanguage';
 import ExtraSections from '../../Component/ExtraPart/ExtraSections';
+import BestTutors from '../../Component/BestTutor/BestTutors';
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             </div>
             <ExtraPart1></ExtraPart1>
             <ExtraSections></ExtraSections>
+            <BestTutors></BestTutors>
         </div>
     );
 };

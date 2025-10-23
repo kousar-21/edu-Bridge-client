@@ -27,7 +27,7 @@ const ContactPage = () => {
                     return (
                         <div
                             key={index}
-                            className="flex flex-col items-center p-6 bg-white rounded border border-gray-300 transition-transform transform hover:scale-105 hover:border-sky-400"
+                            className="flex flex-col items-center dark:bg-gray-800 p-6 bg-white rounded border border-gray-300 transition-transform transform hover:scale-105 hover:border-sky-400"
                         >
                             <Icon className="text-sky-700 text-3xl mb-3" />
                             <h3 className="font-semibold text-lg mb-1 text-sky-700">{item.title}</h3>
@@ -74,7 +74,7 @@ const ContactPage = () => {
                     ].map((faq, index) => (
                         <div
                             key={index}
-                            className="p-4 bg-white rounded border border-gray-300 transition-transform transform hover:scale-105 hover:border-sky-400"
+                            className="p-4 bg-white dark:bg-gray-800 rounded border border-gray-300 transition-transform transform hover:scale-105 hover:border-sky-400"
                         >
                             <h3 className="font-semibold text-sky-700">{faq.q}</h3>
                             <p className="text-sky-500 mt-2">{faq.a}</p>
@@ -84,7 +84,7 @@ const ContactPage = () => {
             </section>
 
             {/* Newsletter Section */}
-            <section className="mb-16 bg-[#E6F3E1] py-12">
+            <section className="mb-16 bg-[#E6F3E1] py-12 dark:bg-gray-800">
                 <h2 className="text-3xl md:text-4xl font-semibold text-sky-700 text-center mb-6">
                     Subscribe to Our Newsletter
                 </h2>

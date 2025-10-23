@@ -23,7 +23,20 @@ If you are developing a production application, we recommend using TypeScript wi
 
 This platform supports features like browsing tutor categories, viewing detailed tutor profiles, secure booking, and reviewing tutors to enhance user engagement. It is inspired by popular platforms such as Preply and Italki.
 
+### Newly Added
+Contact page, here user will receive some new feature. First one is, user can directly contact with the Edubridge Institute Via Email.
+
+second one is user can see and find out location of the institute via google map, which is also include in contact page.
+
+Third user can save his or her favourite tutor and see it in the history and if a user want he can remove the favourite user.
+
+Fourth a user can see best tutor in landing page and seeing their details they can book the best tutor.
+
 ## Key Feature:
+- Used Redux for save Favourite Tutor and remove Favourite tutor.
+- Used EmailJs so that user can directly contact with Institute.
+- Used Map so that user can fined Institute Location.
+- User can See Best Tutor in landing page and can book them.
 - Styling and Design(Tailwind css & Daisy Ui)
 - React Framework
 - HTTP Requests
@@ -61,6 +74,8 @@ This platform supports features like browsing tutor categories, viewing detailed
 - [@React-tooltip](https://react-tooltip.com/)
 - [@Swiperjs](https://swiperjs.com/)
 - [@React-Countup](https://www.npmjs.com/package/react-countup)
+- [@Redux](https://redux.js.org/)
+- [@Email-JS](https://dashboard.emailjs.com/)
 
 
 ## How to Run Locally

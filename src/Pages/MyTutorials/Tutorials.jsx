@@ -55,9 +55,10 @@ const Tutorials = ({ myTutorialPromise }) => {
     console.log(allMyTutorial)
     return (
         <div>
+            <h1 className='text-center text-lg md:text-2xl lg:text-3xl font-bold py-10'>MY Booked Tutor</h1>
             {
                 allMyTutorial.length === 0 ? (<NoData></NoData>) : (
-                    <div className="overflow-x-auto bg-[#ECFAE5] dark:bg-gray-500 w-11/12 md:w-10/12 mx-auto shadow-2xl rounded-2xl">
+                    <div className="overflow-x-auto bg-base-200 dark:bg-gray-700 w-11/12 md:w-10/12 mx-auto border border-gray-300 rounded-2xl">
                         <table className="table">
                             {/* head */}
                             <thead>

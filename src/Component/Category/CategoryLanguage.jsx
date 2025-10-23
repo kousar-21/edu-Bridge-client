@@ -12,15 +12,15 @@ const CategoryLanguage = ({ tutorsData }) => {
     // const datas = languagesData.filter(data => data.language.toLowerCase() === "english")
     // console.log(datas)
 
-    const handleLanguage = (vasa) =>{
+    const handleLanguage = (vasa) => {
         navigate(`/findTutors?lang=${vasa}`)
     }
 
 
     return (
         <div className='pt-10 pb-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-            <div onClick={()=>handleLanguage("english")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("english")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><GiTowerBridge size={24} /></div>
@@ -36,8 +36,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("spanish")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("spanish")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><GiSpartanHelmet size={24} /></div>
@@ -53,8 +53,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("french")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("french")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><FaWineBottle size={24} /></div>
@@ -70,8 +70,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("german")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("german")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><GiGreekTemple size={24} /></div>
@@ -87,8 +87,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("portuguese")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("portuguese")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><GiFishingBoat size={24} /></div>
@@ -104,8 +104,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("bangla")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("bangla")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><PiMosqueBold size={24} /></div>
@@ -121,8 +121,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("italian")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("italian")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><GiPisaTower size={24} /></div>
@@ -138,8 +138,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("japanese")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("japanese")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><GiJapaneseBridge size={24} /></div>
@@ -155,8 +155,8 @@ const CategoryLanguage = ({ tutorsData }) => {
                     </div>
                 </div>
             </div>
-            <div onClick={()=>handleLanguage("chinese")}>
-                <div className="hero bg-base-200 shadow-2xl rounded-3xl w-full hover:text-white hover:bg-violet-400">
+            <div onClick={() => handleLanguage("chinese")}>
+                <div className="hero bg-base-200 border border-gray-300 rounded-3xl w-full hover:text-white hover:bg-violet-400">
                     <div className="w-full hero-content flex-row">
                         {/* image */}
                         <div className='w-1/3 flex justify-center'><GiByzantinTemple size={24} /></div>

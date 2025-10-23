@@ -60,7 +60,7 @@ const FindTutors = () => {
             <div className='py-10 mx-6 md:mx-20'>
                 {
                     loading ? (<LoaderSpinner></LoaderSpinner>) : filterTutor.length > 0 ? (
-                        filterTutor.map((tutor, index) => (<div key={index} className="hero bg-base-200 rounded-3xl shadow-2xl w-full mx-auto my-10 py-10">
+                        filterTutor.map((tutor, index) => (<div key={index} className="hero bg-base-200 rounded-3xl border border-gray-300 w-full mx-auto my-10 py-10">
                             <div className="hero-content flex-col md:flex-row">
                                 <div className='w-3/4 md:w-1/4'>
                                     <img

@@ -3,6 +3,7 @@ import useAuth from '../../CustomHook/useAuth';
 import Tutorials from './Tutorials';
 import { myTutorialPromise } from '../../Api/MyTutorialApi';
 import LoaderSpinner from '../../Component/Spinner/LoaderSpinner';
+import FavoritesTable from './FavoritesTable';
 
 const MyTutorials = () => {
     const { users } = useAuth()
@@ -12,6 +13,11 @@ const MyTutorials = () => {
             <Suspense fallback={<LoaderSpinner></LoaderSpinner>}>
                 <Tutorials myTutorialPromise={myTutorialPromise(users.email)}></Tutorials>
             </Suspense>
+
+            <div>
+                <h1 className='text-center text-lg md:text-2xl lg:text-3xl font-bold py-10'>MY Favourite Tutor</h1>
+                <FavoritesTable></FavoritesTable>
+            </div>
         </div>
     );
 };

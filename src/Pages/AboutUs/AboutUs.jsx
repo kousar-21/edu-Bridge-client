@@ -71,23 +71,23 @@ const AboutUs = () => {
             </section>
 
             {/* Popular Courses Section */}
-            <section className="py-16 mt-12">
+            <section className="py-16 mt-12 dark:bg-gray-800">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-10">Popular Courses</h2>
-                    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-                        <div className="p-6 bg-white rounded-lg border">
+                    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 ">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <h3 className="font-semibold mb-2">Full-Stack Web Development</h3>
                             <p className="text-gray-600 text-sm">
                                 Learn HTML, CSS, JavaScript, React, Node.js, and more.
                             </p>
                         </div>
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <h3 className="font-semibold mb-2">Digital Marketing Mastery</h3>
                             <p className="text-gray-600 text-sm">
                                 SEO, social media marketing, email campaigns, and growth hacking.
                             </p>
                         </div>
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <h3 className="font-semibold mb-2">Data Science & AI</h3>
                             <p className="text-gray-600 text-sm">
                                 Python, Machine Learning, Data Analysis, and AI projects.
@@ -98,11 +98,11 @@ const AboutUs = () => {
             </section>
 
             {/* Meet Our Mentors Section */}
-            <section className="py-16 mt-12 bg-sky-50 rounded-2xl">
+            <section className="py-16 mt-12 bg-sky-50 rounded-2xl dark:bg-gray-800">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-10">Meet Our Mentors</h2>
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <img
                                 src="https://randomuser.me/api/portraits/men/32.jpg"
                                 alt="Mentor 1"
@@ -111,7 +111,7 @@ const AboutUs = () => {
                             <h3 className="font-semibold mb-1">Mr. Arif Rahman</h3>
                             <p className="text-gray-600 text-sm">Full-Stack Developer & Instructor</p>
                         </div>
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <img
                                 src="https://randomuser.me/api/portraits/women/44.jpg"
                                 alt="Mentor 2"
@@ -120,7 +120,7 @@ const AboutUs = () => {
                             <h3 className="font-semibold mb-1">Ms. Sara Ahmed</h3>
                             <p className="text-gray-600 text-sm">Digital Marketing Specialist</p>
                         </div>
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <img
                                 src="https://randomuser.me/api/portraits/men/65.jpg"
                                 alt="Mentor 3"
@@ -134,23 +134,23 @@ const AboutUs = () => {
             </section>
 
             {/* How It Works Section */}
-            <section className="py-16 mt-12">
+            <section className="py-16 mt-12 dark:bg-gray-800">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-10">How EduBridge Works</h2>
                     <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 text-left">
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <h3 className="font-semibold mb-2">1. Explore Courses</h3>
                             <p className="text-gray-600 text-sm">
                                 Browse a wide variety of courses and choose the ones that fit your learning goals.
                             </p>
                         </div>
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <h3 className="font-semibold mb-2">2. Learn & Engage</h3>
                             <p className="text-gray-600 text-sm">
                                 Access lessons, join discussions, and complete assignments at your own pace.
                             </p>
                         </div>
-                        <div className="p-6 bg-white rounded-lg border">
+                        <div className="p-6 bg-white rounded-lg border dark:bg-gray-800">
                             <h3 className="font-semibold mb-2">3. Earn Certificate</h3>
                             <p className="text-gray-600 text-sm">
                                 Complete courses successfully and earn certificates to showcase your skills.
